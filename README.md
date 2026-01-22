@@ -1,3 +1,26 @@
+### ✨ Change Frappe/ERPNext UI Color
+
+```bash
+cd ~/frappe-bench
+```
+
+### 🛠️ Get (download) the app into the bench
+
+```bash
+bench get-app https://github.com/itrostack/material_theme.git
+bench --site site1.local install-app material_theme
+```
+
+### 📦 Build assets (recommended for themes)
+
+```bash
+bench build --app material_theme
+bench restart
+```
+---
+
+
+
 ## Material Theme
 
 Material Theme by Itrostack LLP
